@@ -242,6 +242,7 @@ mark {
 
 .bg-color {
     background-image: linear-gradient(to right, #2eab9f 0%, #EE82EE 100%);
+    opacity: 0.95;
 }
 
 .text-color {
@@ -2137,4 +2138,17 @@ footer .copy-right {
     height: 50px;
     padding: 0;
     margin: 0;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #FF2A68 ;
+    
+    border-radius: 3em;
+}
+::-webkit-scrollbar-track {
+    background-color: #ffcacaff ;
+    border-radius: 3em;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 1px;
 }

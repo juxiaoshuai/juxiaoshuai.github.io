@@ -29,9 +29,13 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
+    
+
 <meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
+<link rel="alternate" href="/atom.xml" title="鞠小帅的博客" type="application/atom+xml">
 </head>
+
 
 
 
@@ -431,9 +435,13 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/1/">
+                                <span class="chip bg-color">1</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -548,7 +556,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/1/">
+                                    <span class="chip bg-color">1</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -706,6 +718,272 @@
     
 
     
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments textarea {
+        box-sizing: border-box;
+        background: url("/medias/comment_bg.png") 100% 100% no-repeat;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #4cbf30;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div class="comment_headling" style="font-size: 20px; font-weight: 700; position: relative; padding-left: 20px; top: 15px; padding-bottom: 5px;">
+        <i class="fas fa-comments fa-fw" aria-hidden="true"></i>
+        <span>评论</span>
+    </div>
+    <div id="vcomments" class="card-content" style="display: grid">
+    </div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'A0lRt8jT0KyRHui2RGWcllvu-9Nh9j0Va',
+        appKey: 'CPjVIc1Ugepc2PkJOghivciE',
+        notify: 'false' === 'true',
+        verify: 'true' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'monsterid',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: '博主真帅'
+    });
+</script>
+
+<!--酷Q推送-->
+
+
+    
 
     
 
@@ -752,6 +1030,14 @@
                 </div>
 
                 
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/1/">
+                        <span class="chip bg-color">1</span>
+                    </a>
+                    
+                </div>
+                
             </div>
         </div>
         
@@ -790,6 +1076,14 @@
                 </div>
 
                 
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/1/">
+                        <span class="chip bg-color">1</span>
+                    </a>
+                    
+                </div>
+                
             </div>
         </div>
         
@@ -806,7 +1100,7 @@
 
         var selection = window.getSelection();
         // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('80')) {
+        if (('' + selection).length < Number.parseInt('30')) {
             return;
         }
 
@@ -829,7 +1123,7 @@
             + '来源: 鞠小帅的博客<br />'
             + '文章作者: JuXiaoShuai<br />'
             + '文章链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者juxiaoshuai所有，个人博客https://jxyblog.top, 任何形式的转载都请注明出处。';
+            + '本文章著作权归作者juxiaoshuai所有，个人博客https://jxyblog.top,任何形式的转载都请注明出处。';
 
         selection.selectAllChildren(newdiv);
         window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
@@ -880,7 +1174,7 @@
             tocSelector: '#toc-content',
             contentSelector: '#articleContent',
             headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
+            collapseDepth: Number('1'),
             headingSelector: 'h2, h3, h4'
         });
 
@@ -1013,7 +1307,7 @@
 
     
     <div class="container row center-align" style="margin-bottom: 15px !important;">
-        <div class="col s12 m8 l8 copy-right">
+        <div class="col s12 m8 l12 copy-right">
             Copyright&nbsp;&copy;
             
                 <span id="year">2021</span>
@@ -1030,17 +1324,17 @@
             
             
             <span id="busuanzi_container_site_pv">
-                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                &nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
                     class="white-color"></span>&nbsp;次
             </span>
             
             
             <span id="busuanzi_container_site_uv">
                 |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
-                    class="white-color"></span>&nbsp;人
+                    class="white-color"></span>&nbsp;人&nbsp
             </span>
             
-            <br>
+
             
             <span id="sitetime">载入运行时间...</span>
             <script>
@@ -1075,7 +1369,7 @@
                         diffMinutes * minutes) / seconds);
                     if (startYear == todayYear) {
                         document.getElementById("year").innerHTML = todayYear;
-                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                        document.getElementById("sitetime").innerHTML = "|&nbsp 本站已安全运行 " + diffDays + " 天 " + diffHours +
                             " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
                     } else {
                         document.getElementById("year").innerHTML = startYear + " - " + todayYear;
@@ -1088,15 +1382,19 @@
             
             <br>
             
+            <span id="icp"><img src="/medias/icp.png" style="vertical-align: text-bottom;" />
+                <a href="/null" target="_blank">辽ICP备2021014220号-1</a>
+            </span>
+            
         </div>
         <div class="col s12 m4 l4 social-link social-statis">
-    <a href="https://github.com/juxiaoshuai" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <a href="https://github.com/juxiaoshuai" class="tooltipped" target="_blank" data-tooltip="GitHub" data-position="top" data-delay="50">
         <i class="fab fa-github"></i>
     </a>
 
 
 
-    <a href="mailto:1819126377@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <a href="mailto:1819126377@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件" data-position="top" data-delay="50">
         <i class="fas fa-envelope-open"></i>
     </a>
 
@@ -1106,13 +1404,13 @@
 
 
 
-    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1819126377" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1819126377" data-position="top" data-delay="50">
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1819126377" class="tooltipped" target="_blank" data-tooltip="QQ" data-position="top" data-delay="50">
         <i class="fab fa-qq"></i>
     </a>
 
 
 
-    <a href="https://www.weibo.com/u/5591476574" class="tooltipped" target="_blank" data-tooltip="关注我的微博: https://www.weibo.com/u/5591476574" data-position="top" data-delay="50">
+    <a href="https://www.weibo.com/u/5591476574" class="tooltipped" target="_blank" data-tooltip="微博" data-position="top" data-delay="50">
         <i class="fab fa-weibo"></i>
     </a>
 
@@ -1282,11 +1580,12 @@ $(function () {
     <!--腾讯兔小巢-->
     
     
+    <script type="text/javascript" color="46,171,159"
+        pointColor="238,130,238" opacity='0.6'
+        zIndex="-1" count="99"
+        src="/libs/background/canvas-nest.js"></script>
+    
 
-    
-    
-    <script type="text/javascript" size="90" alpha='0.4'
-        zIndex="-1" src="/libs/background/ribbon-refresh.min.js" async="async"></script>
     
 
     
@@ -1304,31 +1603,7 @@ $(function () {
         }
         </script>
         
-    <div id="weather-v2-plugin-simple"></div>
-    <script>
-    WIDGET = {
-      CONFIG: {
-        "modules": "01",
-        "background": 5,
-        "tmpColor": "FFFFFF",
-        "tmpSize": 16,
-        "cityColor": "FFFFFF",
-        "citySize": 16,
-        "aqiSize": 16,
-        "weatherIconSize": 24,
-        "alertIconSize": 18,
-        "padding": "10px 10px 10px 10px",
-        "shadow": "1",
-        "language": "en",
-        "borderRadius": 5,
-        "fixed": "false",
-        "vertical": "middle",
-        "horizontal": "center",
-        "key": "nPbfCJALZ1"
-      }
-    }
-    </script>
-    <script src="https://apip.weatherdt.com/simple/static/js/weather-simple-common.js?v=2.0"></script>
+  
 <script>
             window.imageLazyLoadSetting = {
                 isSPA: false,
