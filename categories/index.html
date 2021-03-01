@@ -39,7 +39,35 @@
         })();
         </script>
         
-    
+        <style type="text/css">
+            .uk-alert {
+                margin-bottom: 15px;
+                padding: 10px;
+                background: #ebf7fd;
+                color: #2d7091;
+                border: 1px solid rgba(45, 112, 145, 0.3);
+                border-radius: 4px;
+                text-shadow: 0 1px 0 #ffffff;
+            }
+            .uk-alert-success {
+                background: #e8ece2;
+                color: #659f13;
+                border-left: 6px solid rgba(120, 199, 9);
+                font-weight: 600;
+            }
+            .uk-alert-warning {
+                background: #fff1f0;
+                color: rgb(73, 59, 156);
+                border-left: 6px solid rgb(83, 27, 184, 0.3);
+                font-weight: 600;
+            }
+            .uk-alert-danger {
+                background: #f8f8f6;
+                color: #eb360d;
+                border-left: 6px solid#eb360d;
+                font-weight: 600;
+            }
+     </style>
 
 <style type="text/css" lang="css">
     #loading-container{
@@ -220,45 +248,44 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/tags" class="waves-effect waves-light">
+    <a href="" class="waves-effect waves-light">
+
       
-      <i class="fas fa-equals" style="zoom: 0.6;"></i>
+      <i class="fas fa-align-justify" style="zoom: 0.6;"></i>
       
-      <span>标签</span>
+      <span>文章</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
     </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/categories" class="waves-effect waves-light">
+    <ul class="sub-nav menus_item_child ">
       
-      <i class="fas fa-feather-alt" style="zoom: 0.6;"></i>
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-feather-alt" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
       
-      <span>分类</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/archives" class="waves-effect waves-light">
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-equals" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
       
-      <i class="fas fa-folder-minus" style="zoom: 0.6;"></i>
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-folder-minus" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>归档</span>
+        </a>
+      </li>
       
-      <span>归档</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
-    <a href="/about" class="waves-effect waves-light">
-      
-      <i class="fas fa-user-alt" style="zoom: 0.6;"></i>
-      
-      <span>关于</span>
-    </a>
+    </ul>
     
   </li>
   
@@ -268,8 +295,42 @@
       
       <i class="fas fa-comment-dots" style="zoom: 0.6;"></i>
       
-      <span>留言板</span>
+      <span>留言</span>
     </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-anchor" style="zoom: 0.6;"></i>
+      
+      <span>我</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/about">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>关于</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/aboutme">
+          
+          <i class="fa fa-user-secret" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>其他</span>
+        </a>
+      </li>
+      
+    </ul>
     
   </li>
   
@@ -279,7 +340,7 @@
       
       <i class="fas fa-paperclip" style="zoom: 0.6;"></i>
       
-      <span>友情链接</span>
+      <span>友人站</span>
     </a>
     
   </li>
@@ -323,45 +384,46 @@
         
         <li class="m-nav-item">
 	  
-		<a href="/tags" class="waves-effect waves-light">
+		<a href="javascript:;">
 			
-			    <i class="fa-fw fas fa-equals"></i>
+				<i class="fa-fw fas fa-align-justify"></i>
 			
-			标签
+			文章
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
 		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/categories" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-feather-alt"></i>
-			
-			分类
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/archives" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-folder-minus"></i>
-			
-			归档
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/about" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-user-alt"></i>
-			
-			关于
-		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/categories " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-feather-alt" style="position: absolute;left:50px" ></i>
+			      
+		          <span>分类</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/tags " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-equals" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/archives " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-folder-minus" style="position: absolute;left:50px" ></i>
+			      
+		          <span>归档</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -371,8 +433,43 @@
 			
 			    <i class="fa-fw fas fa-comment-dots"></i>
 			
-			留言板
+			留言
 		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-anchor"></i>
+			
+			我
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>
+
+                  <a href="/about " style="margin-left:75px">
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>关于</span>
+                  </a>
+                </li>
+              
+                <li>
+
+                  <a href="/aboutme " style="margin-left:75px">
+				  
+				   <i class="fa fa fa-user-secret" style="position: absolute;left:50px" ></i>
+			      
+		          <span>其他</span>
+                  </a>
+                </li>
+              
+            </ul>
           
         </li>
         
@@ -382,7 +479,7 @@
 			
 			    <i class="fa-fw fas fa-paperclip"></i>
 			
-			友情链接
+			友人站
 		</a>
           
         </li>
@@ -712,6 +809,7 @@
 </footer>
 
 <div class="progress-bar"></div>
+
 
 
     <!-- 搜索遮罩框 -->
