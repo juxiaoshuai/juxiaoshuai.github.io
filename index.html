@@ -29,6 +29,16 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?f8bbeff9fe9bff09df9c81e495870ebe";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+        </script>
+        
     
 
 <meta name="generator" content="Hexo 5.4.0">
@@ -580,7 +590,11 @@
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                                12highlight: enable: false line_number: true auto_detect: false tab_replace: ‘’ wrap: true hljs: false prismjs: enable: 
+                                12# 关闭原有 的代码高亮，使用自己的
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: fals
                             
                         </div>
                         <div class="publish-info">
