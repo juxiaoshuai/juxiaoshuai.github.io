@@ -6,7 +6,7 @@
   <link href="https://www.jxyblog.top/atom.xml" rel="self"/>
   
   <link href="https://www.jxyblog.top/"/>
-  <updated>2021-03-03T04:21:46.658Z</updated>
+  <updated>2021-03-04T12:50:43.578Z</updated>
   <id>https://www.jxyblog.top/</id>
   
   <author>
@@ -17,18 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>博客细节记录</title>
-    <link href="https://www.jxyblog.top/2021/02/27/bo-ke-xi-jie-ji-lu/"/>
-    <id>https://www.jxyblog.top/2021/02/27/bo-ke-xi-jie-ji-lu/</id>
+    <title>第一篇博客</title>
+    <link href="https://www.jxyblog.top/2021/02/27/di-yi-pian-wen-zhang/"/>
+    <id>https://www.jxyblog.top/2021/02/27/di-yi-pian-wen-zhang/</id>
     <published>2021-02-27T07:11:15.000Z</published>
-    <updated>2021-03-03T04:21:46.658Z</updated>
+    <updated>2021-03-04T12:50:43.578Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;直达评论按钮&quot;&gt;&lt;a href=&quot;#直达评论按钮&quot; class=&quot;headerlink&quot; title=&quot;直达评论按钮&quot;&gt;&lt;/a&gt;直达评论按钮&lt;/h2&gt;&lt;h3</summary>
+    <summary type="html">&lt;h2 id=&quot;1-代码高亮&quot;&gt;&lt;a href=&quot;#1-代码高亮&quot; class=&quot;headerlink&quot; title=&quot;1.代码高亮&quot;&gt;&lt;/a&gt;1.代码高亮&lt;/h2&gt;&lt;p&gt;#代码高亮在代码前加```&lt;/p&gt;
+&lt;pre class=&quot;line-numbers</summary>
         
       
     
@@ -40,19 +41,18 @@
   </entry>
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="https://www.jxyblog.top/2021/02/27/di-yi-pian-wen-zhang/"/>
-    <id>https://www.jxyblog.top/2021/02/27/di-yi-pian-wen-zhang/</id>
+    <title>使用hexo搭建一个属于自己的博客并部署到Github和Coding</title>
+    <link href="https://www.jxyblog.top/2021/02/27/hexo-da-jian-bo-ke/"/>
+    <id>https://www.jxyblog.top/2021/02/27/hexo-da-jian-bo-ke/</id>
     <published>2021-02-27T07:11:15.000Z</published>
-    <updated>2021-03-03T04:32:18.494Z</updated>
+    <updated>2021-03-04T12:58:50.325Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;1-代码高亮&quot;&gt;&lt;a href=&quot;#1-代码高亮&quot; class=&quot;headerlink&quot; title=&quot;1.代码高亮&quot;&gt;&lt;/a&gt;1.代码高亮&lt;/h2&gt;&lt;p&gt;#代码高亮在代码前加```&lt;/p&gt;
-&lt;pre class=&quot;line-numbers</summary>
+    <summary type="html">&lt;h1 id=&quot;使用hexo搭建一个属于自己的博客并部署到Github和Coding&quot;&gt;&lt;a href=&quot;#使用hexo搭建一个属于自己的博客并部署到Github和Coding&quot; class=&quot;headerlink&quot;</summary>
         
       
     
