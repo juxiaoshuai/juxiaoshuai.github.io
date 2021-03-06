@@ -6,7 +6,7 @@
   <link href="https://www.jxyblog.top/atom.xml" rel="self"/>
   
   <link href="https://www.jxyblog.top/"/>
-  <updated>2021-03-06T02:14:57.352Z</updated>
+  <updated>2021-03-06T02:17:11.514Z</updated>
   <id>https://www.jxyblog.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://www.jxyblog.top/2021/02/27/hexo-da-jian-bo-ke/"/>
     <id>https://www.jxyblog.top/2021/02/27/hexo-da-jian-bo-ke/</id>
     <published>2021-02-27T07:11:15.000Z</published>
-    <updated>2021-03-06T02:14:57.352Z</updated>
+    <updated>2021-03-06T02:17:11.514Z</updated>
     
     
       
@@ -33,6 +33,8 @@
       
     
     
+    
+    <category term="博客搭建" scheme="https://www.jxyblog.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
     
     <category term="hexo 博客搭建" scheme="https://www.jxyblog.top/tags/hexo-%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
