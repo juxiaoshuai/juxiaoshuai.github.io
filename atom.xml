@@ -6,7 +6,7 @@
   <link href="https://jxyblog.top/atom.xml" rel="self"/>
   
   <link href="https://jxyblog.top/"/>
-  <updated>2021-03-28T08:39:06.075Z</updated>
+  <updated>2021-03-28T15:40:06.810Z</updated>
   <id>https://jxyblog.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>更改hexo的主题为Matery,并进行初步的优化</title>
+    <link href="https://jxyblog.top/2021/03/28/matrry/"/>
+    <id>https://jxyblog.top/2021/03/28/matrry/</id>
+    <published>2021-03-28T08:31:03.000Z</published>
+    <updated>2021-03-28T15:40:06.810Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;更改hexo的主题为Matery-并进行初步的优化&quot;&gt;&lt;a href=&quot;#更改hexo的主题为Matery-并进行初步的优化&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="博客搭建" scheme="https://jxyblog.top/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    
+    <category term="hexo" scheme="https://jxyblog.top/tags/hexo/"/>
+    
+    <category term="博客搭建" scheme="https://jxyblog.top/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+    <category term="Matery" scheme="https://jxyblog.top/tags/Matery/"/>
+    
+  </entry>
   
   <entry>
     <title>使用hexo搭建一个属于自己的博客并部署到Github和Coding</title>
